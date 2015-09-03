@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ECF0F1;
+  font-family: "Helvetica";
+  color: #424242;
+}
+
+
+a {
+  text-decoration: none;
+  color: #ECF0F1;
+}
+
+a:hover {
+  color: #E74C3C;
+}
+
+a:visited:hover {
+  color: #E74C3C;
+}
+
+a:visited {
+  color: #ECF0F1;
+}
+
+
+.pricebubble {
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  display: block;
+  padding: 3px;
+  padding-top: 15px;
+  height: 35px;
+  width: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+  background-color: #C0392B;
+  color: #ffffff;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-top: 60px;
+  text-align: center;
+  color: #2C3E50;
+}
+
+h1.title {
+  padding-left: 60px;
+  margin-top: -45px;
+  font-size: 2.5em;
+  color: #34495E;
+}
+
+h2 {
+  padding-top: 40px;
+  font-size: 2.5em;
+  color: #34495E;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: -2px;
+  color: #7F8C8D;
+}
+
+h3:hover {
+  color: #E74C3C;
+}
+
+#nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #ECF0F1;
+  text-shadow: 1px 0px 1px #424242;
+}
+
+#nav a:hover {
+  color: #ECF0F1;
+  text-shadow: 2px 1px 3px #7F8C8D;
+}
+
+.hashtag {
+  background-color: #2C3E50;
+  padding: 15px;
+  display: inline;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ECF0F1;
+  text-shadow: 1px 0px 1px #424242;
+}
+
+#nav {
+  height: 35px;
+  display:block;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #E74C3C;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  box-shadow: 2px 0px 2px #424242;
+}
+
+.con {
+  display: inline-block;
+  position : fixed;
+  left: 40px;
+  margin-top: 5px;
+}
+
+.basket {
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  position: fixed;
+  right: 40px;
+  top: 10px;
+}
+
+div.art {
+  display:inline-block;
+  position: relative;
+  background-color: #C0392B;
+  margin: 2px;
+  margin-left: 10px;
+  padding: 3px;
+  padding-top: 5px;
+  padding-right: 5px;
+  border-radius: 13px;
+  color: #ffffff;
+}
+
+#header {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+#content {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#container {
+    margin-top: 40px;
+    width: 100vw;
+    position: relative;
+}
+
+.item {
+  width: 60%;
+  height: 60px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.erreur {
+  color: red;
+  text-align: right;
+  margin-top: 100px;
+  margin-right: 20%;
+}
+
+.price {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.item img {
+  max-width: 50px;
+  max-height: auto;
+  border-radius: 20px;
+  float: left;
+  padding-right: 10px;
+}
+
+.addcart a:hover {
+  color: #2C3E50;
+}
+
+.quantity {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.article {
+  height: 300px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px #424242;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+.article:hover img {
+  opacity: 1;
+}
+
+.addcart {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  padding-top: 12px;
+  top: 0px;
+  right: 0px;
+  background-color: #C0392B;
+  border-bottom-left-radius: 10px;
+  opacity: 0.9;
+}
+
+.article:hover .addcart {
+  display: block;
+}
+
+.article img {
+  max-width: 250px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  opacity: 0.7;
+}
+
+.total {
+  float: right;
+  padding-right: 20vw;
+  padding-top: 10px;
+}
+
+.buy {
+  float: left;
+  margin-left: 20vw;
+  margin-top: 10px;
+  padding: 10px;
+  witdh: 150px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000;
+}
+
+.buy a {
+  color: #424242;
+}
+
+.buy a:hover {
+  color: red;
+}
+
+.buy:hover {
+  border-bottom: 1px solid #E74C3C;
+}
+
+
+.pass {
+  text-align: right;
+  padding-right: 10%;
+}
+.desc {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  height: 20px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #BAD0CC;
+  width: 100%;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+}
